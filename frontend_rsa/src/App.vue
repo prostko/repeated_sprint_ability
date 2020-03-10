@@ -1,6 +1,14 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <h1>RSA: Repeated Sprint Ability</h1>
+    <h3>Agile Sprint Performance Tracker</h3>
+
+    <b-nav tabs align="center" fill>
+      <b-nav-item to="/sprints" active-class="active">Sprints</b-nav-item>
+      <b-nav-item to="/tickets" active-class="active">Tickets</b-nav-item>
+      <b-nav-item to="/principals" active-class="active">Principals</b-nav-item>
+    </b-nav>
+
     <router-view/>
   </div>
 </template>
