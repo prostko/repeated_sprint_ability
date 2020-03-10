@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  sprint: one
+  point_estimate: 1
+  dev_begin_at: 2020-03-10 14:26:16
+  dev_end_at: 2020-03-10 14:26:16
+  merged_at: 2020-03-10 14:26:16
+  bounces: 1
+
+two:
+  name: MyString
+  description: MyText
+  sprint: two
+  point_estimate: 1
+  dev_begin_at: 2020-03-10 14:26:16
+  dev_end_at: 2020-03-10 14:26:16
+  merged_at: 2020-03-10 14:26:16
+  bounces: 1
