@@ -1,12 +1,10 @@
 <template>
-  <div>
-    sprints
-  </div>
+  <div>principals - - - </div>
 </template>
 
 <script>
 export default {
-    name: 'Sprints'
+  name: 'Principals'
 }
 </script>
 

@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <h1>RSA: Repeated Sprint Ability</h1>
-    <h3>Agile Sprint Performance Tracker</h3>
+    <div class="text-center">
+      <h1>RSA: Repeated Sprint Ability</h1>
+      <h3>Agile Sprint Performance Tracker</h3>
+    </div>
 
     <b-nav tabs align="center" fill>
       <b-nav-item to="/sprints" active-class="active">Sprints</b-nav-item>
@@ -24,7 +26,6 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }

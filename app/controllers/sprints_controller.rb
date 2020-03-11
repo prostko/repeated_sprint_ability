@@ -5,7 +5,7 @@ class SprintsController < ApplicationController
   def index
     @sprints = Sprint.all
 
-    render json: @sprints
+    render json: SprintSerializer.new(@sprints, include: [:tickets]).serialized_json
   end
 
   # GET /sprints/1
